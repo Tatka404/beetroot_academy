@@ -1,2 +1,3 @@
 # Hello, Olga!
-print("Hello", "Olga", sep=', ', end='!')
+print('Hello', 'Olga', sep=', ', end='!')
+print()
