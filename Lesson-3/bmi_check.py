@@ -9,4 +9,3 @@ upper_bound = 25
 result = lower_bound < index < upper_bound
 
 print(f'Your BMI is normal: {result}')
-
