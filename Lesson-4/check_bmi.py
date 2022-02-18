@@ -4,7 +4,7 @@ index = (weight / height ** 2)
 lower_bound = 18.5
 upper_bound = 25
 
-if lower_bound < index < upper_bound:
+if lower_bound <= index <= upper_bound:
     print('Congratulations: your BMI is normal')
 elif index < lower_bound:
     print('Bad news: your BMI is below the line')
