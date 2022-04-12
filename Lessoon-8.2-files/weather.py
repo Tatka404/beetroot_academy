@@ -10,6 +10,3 @@ for i in lines:
     temp_int = int(temp_txt.replace('°C,', ''))
     s = s + temp_int
 print(f'Number of lines: {len(lines)}. Average temperature: {round(s / len(lines), 2)}°C')
-
-
-
