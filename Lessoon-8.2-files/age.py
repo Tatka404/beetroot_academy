@@ -6,9 +6,9 @@ with open('fio.txt', 'r') as file:
     words = content.split()
     name = words[1]
     year = words[-1]
-print(words)
-print(name)
-print(year)
+# print(words)
+# print(name)
+# print(year)
 
 your_age = datetime.now().year - int(year)
 
