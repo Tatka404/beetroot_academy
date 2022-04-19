@@ -59,7 +59,6 @@ print(f'You have rolled: {universal_dice()}')
 
 
 # 6
-
 num_dice = int(input('How many dice? ') or '6')
 num_faces = int(input('How many sides on a dice?') or '6')
 
