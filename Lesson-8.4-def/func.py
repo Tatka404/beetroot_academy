@@ -24,7 +24,6 @@ print(season(month))
 
 
 # 3
-
 def roll_dice():
     print(f'Number is: {randint(1, 6)}')
 
@@ -45,6 +44,7 @@ def multi_dice(*d, sep='   '):
 
 print(multi_dice(*random.sample(range(1, 7), 1)))
 
+
 # 5
 faces = int(input('How many sides on a dice? ') or '6')
 
@@ -56,6 +56,8 @@ def universal_dice():
 
 
 print(f'You have rolled: {universal_dice()}')
+
+
 # 6
 
 num_dice = int(input('How many dice? ') or '6')
